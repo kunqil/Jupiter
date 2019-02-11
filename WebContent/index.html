@@ -17,6 +17,7 @@
       <a href="#">About</a>
     </nav>
     <span id="welcome-msg"></span>
+    <a id="logout-link" href="logout">Logout</a>
     <i id="avatar" class="avatar fa fa-user fa-2x"></i>
   </header>
   
@@ -29,6 +30,30 @@
     </header>
 
     <section class="main-section">
+      <div id="login-form">
+        <label for="username">Username:</label>
+        <input id="username" name="username" type="text">
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password">
+        <button id="register-form-btn">New User? Register</button>
+        <button id="login-btn">Login</button>
+        <p id="login-error"></p>
+      </div>
+      
+      <div id="register-form">
+        <label for="username">Username: *</label>
+        <input id="register-username" name="username" type="text">
+        <label for="password">Password: *</label>
+        <input id="register-password" name="password" type="password">
+        <label for="first-name">First Name: *</label>
+        <input id="register-first-name" name="first-name" type="text">
+        <label for="last-name">Last Name: *</label>
+        <input id="register-last-name" name="last-name" type="text">
+        <button id="login-form-btn">Back to Login</button>
+        <button id="register-btn">Register</button>
+        <p id="register-result"></p>
+      </div>
+
       <aside id="item-nav">
         <div class="nav-icon">
           <i class="fa fa-sitemap fa-2x"></i>
@@ -77,11 +102,11 @@
       </li>
       <li>
         <p><i class="fa fa-envelope-o fa-2x"></i></p>
-        <p>info@laioffer.com</p>
+        <p>Kunqil@uci.edu</p>
       </li>
       <li>
         <p><i class="fa fa-phone fa-2x"></i></p>
-        <p>+1 800 123 456</p>
+        <p>+1 949 656 5855</p>
       </li>
     </ul>
   </footer>
